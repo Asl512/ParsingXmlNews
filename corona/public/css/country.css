@@ -1,0 +1,90 @@
+.header
+{
+    height: 250px;
+    box-shadow: 10px 10px 12px 0 rgba(0,0,0,.07);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data_cantry
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.flag
+{
+    height: 100px;
+    box-shadow: -5px -5px 20px white,  5px 5px 20px #BABECC;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+}
+
+.name_contry
+{
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+.population
+{
+    height: 100%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.number_population,.text_population
+{
+    color:black;
+    margin:0px 0px 0px 0px;
+}
+
+.number_population
+{
+    font-size: 45px;
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text_population
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+.world_grafik_title > h1
+{
+    text-align: center;
+}
+.world_grafik_title > .blocks_grafiks
+{
+    margin-top: 10px !important;
+}
+
+.ct-chart5 > svg > .ct-series-b > path{fill: #EBECF0 !important; stroke: blue;}
+.ct-chart5 > svg > .ct-series-a > path{fill: blue !important;}
+
+.ct-chart6 > svg > .ct-series-b > path{fill: #EBECF0 !important; stroke: green;}
+.ct-chart6 > svg > .ct-series-a > path{fill: green !important;}
+
+.ct-chart7 > svg > .ct-series-b > path{fill: #EBECF0!important; stroke: red;}
+.ct-chart7 > svg > .ct-series-a > path{fill: red !important;}
+
+.ct-chart5 > svg > g > text:first-of-type,
+.ct-chart6 > svg > g > text:first-of-type,
+.ct-chart7 > svg > g > text:first-of-type
+{
+    fill:#EBECF0 !important;
+}
+
+
