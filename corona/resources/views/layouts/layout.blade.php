@@ -64,7 +64,7 @@
                 </div>
 
                 <div class = 'block_grafik'>
-                    <h1 class = title_block_grafik>Выздоровило:</h1>
+                    <h1 class = title_block_grafik>Выздоровели:</h1>
                     <div class = 'data_block_grafik'>
                         <div class="circle circle_green"></div>
                         <p>{{number_format($dataJson->recovered, 0, '.', ' ')}}
@@ -78,7 +78,7 @@
                 </div>
 
                 <div class = 'block_grafik'>
-                    <h1 class = title_block_grafik>Умерло:</h1>
+                    <h1 class = title_block_grafik>Летальных исходов:</h1>
                     <div class = 'data_block_grafik'>
                         <div class="circle circle_red"></div>
                         <p>{{number_format($dataJson->deaths, 0, '.', ' ')}}
